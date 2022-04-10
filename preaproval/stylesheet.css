@@ -1,6 +1,36 @@
-#test{
-    text-align: center;
-    color:aqua;
+#logoHeader{
+    margin-left:10px;
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float:left;
+    color:rgb(255, 255, 255);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-style: bold;
+}
+#dir1{
+    margin-right: 20px;
+}
+#dir2{
+    margin-right: 60px;
+}
+
+#dir3{
+    margin-right: 80px;
+}
+.dropdown{
+    font-size: 20px;
+    margin-top: 40px;
+    float:right;
+    font-family: monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(255, 255, 255);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.dropdown:hover{
+    cursor: pointer;
+}
+.dropdown:active{
+    color:aquamarine;
 }
 #Title{
     width:100%;
@@ -9,17 +39,13 @@
     top:auto;
     position: absolute;
     top: 0px;
-    
-    font-size: 40px;
-    font-family: monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: left;
-    color:white;
-    
+    border-bottom: 1px solid white;
 }
 #backgroundColor{
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(255, 255, 255);
 }
-html,body,div{
+#Title, html, body{
     padding: 0;
     margin: 0;
 }
+
