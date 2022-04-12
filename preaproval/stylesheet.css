@@ -8,7 +8,6 @@
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     font-style: bold;
 }
-
 #dir1{
     margin-right: 20px;
 }
@@ -65,10 +64,27 @@
     border-bottom: 2px solid aquamarine;
 }
 #backgroundColor{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(77, 77, 77);
 }
 #Title, html, body{
     padding: 0;
     margin: 0;
+}
+.sidePanelContent{
+    border: 2px solid aquamarine;
+    border-radius: 25px;
+    margin-left: -100px;
+    width: 35%;
+    height: 600px;
+    margin-top: 200px;
+    background: rgb(0, 0, 0);
+}
+.sidePanelInfo{
+    border: 2px solid aquamarine;
+    border-radius: 25px;
+    margin: 350px;
+    height: 400px;
+    background: black;
+    ;
 }
 
