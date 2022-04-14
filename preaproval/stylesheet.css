@@ -53,7 +53,7 @@
     background:#000000;
     height:100px;
     top:auto;
-    position: absolute;
+    position: sticky;
     top: 0px;
     border-bottom: 2px solid aquamarine;
 }
@@ -82,21 +82,26 @@ body{
     margin-left: -100px;
     width: 35%;
     height: 600px;
-    margin-top: 200px;
     background: rgb(0, 0, 0);
 }
 .sidePanelInfo{
-    padding-top: 5px;
-    padding-left: 35px ;
-    text-align: left;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px ;
     color: white;
-    display: inline-block;
+}
+.sidePanelContact{
+    align-items: end;
+    flex-direction: column;
+    display: flex;
     border: 2px solid aquamarine;
     border-radius: 25px;
-    margin-left: 1750px;
-    margin-top: -200px;
     width: 300px;
     height: 450px;
     background: black;
+}
+.panels{
+    display: flex;
+    justify-content: space-between;
 }
 
