@@ -2,10 +2,8 @@
     margin-left:10px;
     font-size: 40px;
     margin-top: 20px;
-    font-family: monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     float:left;
     color:rgb(255, 255, 255);
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     font-style: bold;
 }
 #dir1{
@@ -16,20 +14,38 @@
 }
 
 #dir3{
-    margin-right: 80px;
+    margin-right: 100px;
+}
+.dropdown1 {
+    margin-top: 0px;
+    float:right;
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f900;
+    min-width: 160px;
+    padding: 1px 1px;
+    z-index: 1;
+    top: 100%;
+}
+.dropdown1:hover .dropdown-content {
+    display: block;
 }
 .dropdown{
-    font-size: 20px;
+    position: relative;
     margin-top: 40px;
+    display: inline-block;
+    font-size: 20px;
     float:right;
-    font-family: monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:rgb(255, 255, 255);
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .dropdown:hover{
     cursor: pointer;
-}
-.dropdown:active{
     color:aquamarine;
 }
 #Title{
@@ -42,10 +58,45 @@
     border-bottom: 2px solid aquamarine;
 }
 #backgroundColor{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(29, 29, 29);
 }
 #Title, html, body{
     padding: 0;
     margin: 0;
+    font-family: monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+body{
+    overflow-x: hidden;
+}
+.sidePanelContent{
+    font-style: italic;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-right: 50px;
+    text-align: right;
+    color: white;
+    display: inline-block;
+    border: 2px solid aquamarine;
+    border-radius: 25px;
+    margin-left: -100px;
+    width: 35%;
+    height: 600px;
+    margin-top: 200px;
+    background: rgb(0, 0, 0);
+}
+.sidePanelInfo{
+    padding-top: 5px;
+    padding-left: 35px ;
+    text-align: left;
+    color: white;
+    display: inline-block;
+    border: 2px solid aquamarine;
+    border-radius: 25px;
+    margin-left: 1750px;
+    margin-top: -200px;
+    width: 300px;
+    height: 450px;
+    background: black;
 }
 
