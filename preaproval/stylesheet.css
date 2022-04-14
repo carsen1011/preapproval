@@ -22,24 +22,14 @@
     position: relative;
     display: inline-block;
     font-size: 20px;
-<<<<<<< HEAD
     color:rgb(255, 255, 255);
-=======
-    font-family: monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:rgb(255, 255, 255);
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
->>>>>>> 3cfc6bf47909f3e18748e34918e38aad90e2437b
 }
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f900;
     min-width: 160px;
-<<<<<<< HEAD
     padding: 1px 1px;
-=======
-    padding: 12px 16px;
->>>>>>> 3cfc6bf47909f3e18748e34918e38aad90e2437b
     z-index: 1;
     top: 100%;
 }
@@ -68,11 +58,7 @@
     border-bottom: 2px solid aquamarine;
 }
 #backgroundColor{
-<<<<<<< HEAD
     background-color: rgb(29, 29, 29);
-=======
-    background-color: rgb(77, 77, 77);
->>>>>>> 3cfc6bf47909f3e18748e34918e38aad90e2437b
 }
 #Title, html, body{
     padding: 0;
@@ -112,22 +98,5 @@ body{
     width: 300px;
     height: 450px;
     background: black;
-}
-.sidePanelContent{
-    border: 2px solid aquamarine;
-    border-radius: 25px;
-    margin-left: -100px;
-    width: 35%;
-    height: 600px;
-    margin-top: 200px;
-    background: rgb(0, 0, 0);
-}
-.sidePanelInfo{
-    border: 2px solid aquamarine;
-    border-radius: 25px;
-    margin: 350px;
-    height: 400px;
-    background: black;
-    ;
 }
 
