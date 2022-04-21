@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+@keyframes dropdown{
+    0%{transform: translateY(-100px);}
+    100%{transform: translateY(0px);}
+}
+.topbar{
+    padding-left: 15px;
+    border-radius: 0 0 25px 25px;
+    align-items: center;
+    color:white;
+    background-color: black;
+    width: 60%;
+    height: 100px;
+    display: flex;
+    animation-name: dropdown;
+    animation-duration: 2s;
+}
+.slideText{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    background-color:black;
+    width: 30%;
+    height: 150px;
+    display: flex;
+    animation-name: slidingText;
+    animation-duration: 2s;
+}
+@keyframes slidingText{
+    0%{transform: translateX(-175px);}
+    100%{transform: translateX(0px);}
+}
+.sideBar{
+    display: flex;
+    align-content: center;
+}
+body, html{
+    padding: 0;
+    margin: 0;
+}
