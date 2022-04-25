@@ -24,24 +24,24 @@
     color: rgb(255, 255, 255);
     font-size: 40px;
     background-color:black;
-    width: 15%;
+   
     height: 500px;
     display: flex;
     justify-content: center;
 }
 .fullSlide{
+    width:15%;
+}
+svg{
     animation-name: slidingText;
     animation-duration: 3s;
 }
 @keyframes slidingText{
-    0%{transform: translateX(-600px);}
-    100%{transform: translateX(0px);}
-}
-.sideBar{
-    display: flex;
+    0%{transform: translateY(-50px);}
+    100%{transform: translateY(0px);}
 }
 #backgroundProperties{
-    background-image: linear-gradient(to bottom right, rgb(255, 0, 0), rgb(255, 102, 0));
+    background-image: linear-gradient(to bottom right, rgb(156, 102, 255), rgb(128, 204, 255));
     height: 1000px;
 }
 body, html{
