@@ -49,10 +49,14 @@ svg{
     flex-direction: column-reverse;
 }
 .header1{
+    margin-left: 500px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-content: center;
+    justify-content: flex-end;
+}
+.header1:hover{
+    
 }
 .backgroundGarbage{
     margin-right:60px;
