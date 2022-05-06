@@ -2,21 +2,52 @@
 <html>
     <body>
       <style>
+        body{
+          font-family: 'Courier New', Courier, monospace;
+        }
         .compWrapper{
           display: flex;
           flex-direction: column;
           align-items: flex-start;
         }
+        #question{
+          font-family: 'Courier New', Courier, monospace;
+          width: 500px;
+          height: 100px;
+          border-radius: 10px;
+        }
+        #name{
+          border-radius: 5px;
+        }
       </style>
-      <h1>Hello!</h1>
+      <h1 id="title">Hello!</h1>
       <h2>welcome to my website</h2>
       <h3>Please submit a complaint below</h3>
       <form onsubmit="return false"></form>
       <div class=compWrapper>
-        <input type="text" placeholder="Enter your last name" id="lastName" />
-        <input type="text" placeholder="Enter your last name" id="lastName" />
+        <span>What is your question?</span>
+        <br>
+        <input id="name" placeholder="please tell us your name">
+        <textarea id="question" placeholder="please write your review here" rows="4"></textarea>
+        <br><br>
+        <button id="sendButton" onclick="sendContact();">Submit Your Review</button>
+        <br><br>
       </div>
+      <hr id="dividingLine">
+      <div id=divider></div>
         <script>
+          function sendContact(){
+            var name=document.getElementById("name").value;
+            var line=document.getElementById("divider")
+            var input=document.getElementById("question").value;
+            var bodyTag=document.createElement("div");
+            var nameTag=document.createElement("div");
+            nameTag.innerHTML=name;
+            bodyTag.innerHTML=input;
+            line.appendChild(userTag);
+            bodyTag.appendChild(nameTag)
+            console.log(input);
+          }
         </script>
     </body>
 </html>
