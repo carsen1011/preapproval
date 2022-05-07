@@ -11,13 +11,21 @@
           align-items: flex-start;
         }
         #question{
+          text-align: center;
           font-family: 'Courier New', Courier, monospace;
           width: 500px;
           height: 100px;
           border-radius: 10px;
         }
         #name{
+          margin-bottom: 10px;
           border-radius: 5px;
+        }
+        #divider{
+          display: flex;
+          border: black 2px solid;
+          color: green;
+          flex-direction: column;
         }
       </style>
       <h1 id="title">Hello!</h1>
@@ -37,15 +45,17 @@
       <div id=divider></div>
         <script>
           function sendContact(){
-            var name=document.getElementById("name").value;
             var line=document.getElementById("divider")
+            var name=document.getElementById("name").value;
             var input=document.getElementById("question").value;
-            var bodyTag=document.createElement("div");
-            var nameTag=document.createElement("div");
+            var bodyTag=document.createElement("div")
+            var nameTag=document.createElement("div")
+            nameTag.setAttribute("id","revWrap");
+            bodyTag.setAttribute('id',"revWrap");
             nameTag.innerHTML=name;
             bodyTag.innerHTML=input;
-            line.appendChild(userTag);
-            bodyTag.appendChild(nameTag)
+            line.appendChild(nameTag);
+            line.appendChild(bodyTag)
             console.log(input);
           }
         </script>
